@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Festival de Música</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        header {
+            background: url('https://example.com/festival-banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        h1, h2 {
+            color: #dc3545; /* Color rojo para los títulos */
+        }
+        .artist-card {
+            margin-bottom: 30px;
+        }
+        .card-img-top {
+            height: 200px; /* Ajuste para las imágenes */
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .card-img-top {
+                height: 150px; /* Ajuste para pantallas más pequeñas */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center py-5">
+        <h1>Festival de Música 2024</h1>
+        <p style="color: #dc3545;">Vive la mejor experiencia musical del año</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#artistas">Artistas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#entradas">Entradas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="artistas" class="container mt-5">
+        <h2 class="text-center">Artistas</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 artist-card text-center">
+                <img src="https://anton.com.mx/wp-content/uploads/2024/05/twenty-one-pilots-the-clancy-worl-tour.jpg" class="card-img-top" alt="Twenty-One Pilots">
+                <h3>Twenty-One Pilots</h3>
+                <p>La mezcla de rock, rap y pop de Twenty-One Pilots ha conquistado corazones. Con éxitos como "Stressed Out" y "Heathens", su enérgico directo es un espectáculo que no te querrás perder.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 artist-card text-center">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebc33cc15260b767ddec982ce8" class="card-img-top" alt="Red Hot Chili Peppers">
+                <h3>Red Hot Chili Peppers</h3>
+                <p>Con su estilo único de funk rock, los Red Hot Chili Peppers prometen una actuación llena de energía y clásicos como "Californication" y "Under the Bridge". ¡Prepárate para un viaje musical inolvidable!</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 artist-card text-center">
+                <img src="https://cdns-images.dzcdn.net/images/cover/8c0848291e0af2808180fdbe333b076d/1900x1900-000000-80-0-0.jpg" class="card-img-top" alt="Fall Out Boy">
+                <h3>Fall Out Boy</h3>
+                <p>Fall Out Boy, con su característico pop punk, traerá sus himnos generacionales como "Sugar, We're Goin Down" y "Centuries". Una banda que nunca deja de sorprender en el escenario.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="horarios" class="container mt-5">
+        <h2 class="text-center">Horarios</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-group">
+                    <li class="list-group-item">Fecha: 15 de Octubre de 2024</li>
+                    <li class="list-group-item">16:00 - Apertura de puertas (Blink y Teddy Picker)</li>
+                    <li class="list-group-item">17:00 - Fall Out Boy</li>
+                    <li class="list-group-item">19:00 - Twenty-One Pilots</li>
+                    <li class="list-group-item">21:00 - Red Hot Chili Peppers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="entradas" class="container mt-5">
+        <h2 class="text-center">Entradas</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Básico</h5>
+                        <p class="card-text">Acceso general al festival.</p>
+                        <p class="h4">$50</p>
+                        <button class="btn btn-primary">Adquirir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Platino</h5>
+                        <p class="card-text">Acceso preferencial y vista mejorada.</p>
+                        <p class="h4">$80</p>
+                        <button class="btn btn-primary">Adquirir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium</h5>
+                        <p class="card-text">Acceso VIP y merch exclusivo.</p>
+                        <p class="h4">$120</p>
+                        <button class="btn btn-primary">Adquirir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">V.I.P.</h5>
+                        <p class="card-text">Acceso a áreas exclusivas y servicios premium.</p>
+                        <p class="h4">$200</p>
+                        <button class="btn btn-primary">Adquirir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Festival de Música | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
